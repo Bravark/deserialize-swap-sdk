@@ -1,0 +1,35 @@
+{
+  "name": "@deserialize/swap-sdk",
+  "version": "0.0.5",
+  "description": "Swap SDK for the deserialize aggregator",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "publish": "npm run build && npm publish --access=public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bravark/deserialize-swap-sdk.git"
+  },
+  "keywords": [
+    "deserialize",
+    "deserialise",
+    "eclipse",
+    "aggregator",
+    "jupiter",
+    "pouch"
+  ],
+  "author": "0xazach",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Bravark/deserialize-swap-sdk/issues"
+  },
+  "homepage": "https://github.com/Bravark/deserialize-swap-sdk#readme",
+  "dependencies": {
+    "@solana/web3.js": "^1.98.0",
+    "bs58": "^6.0.0",
+    "dotenv": "^16.4.7"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2019",                    // or your preferred target
+    "module": "commonjs",                  // or "ESNext" if you prefer
+    "declaration": true,                   // generate .d.ts files
+    "outDir": "./dist",                    // output directory for compiled files
+    "strict": true,                        // enable all strict type-checking options
+    "esModuleInterop": true,               // for compatibility with commonJS modules
+    "skipLibCheck": true,                  // skip type checking of declaration files
+    "forceConsistentCasingInFileNames": true,
+    "sourceMap": true                      // generate source maps (optional)
+  },
+  "include": ["src/**/*"],                 // adjust if your source files are in a different folder
+  "exclude": ["node_modules", "**/*.spec.ts"] // exclude tests and node_modules
+}
