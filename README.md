@@ -4,12 +4,12 @@
 
 # Swap SDK
 
-The **Swap SDK** is a TypeScript library that simplifies interacting with a Solana swap endpoint. It abstracts away the low-level details of converting between Solana types (e.g., `PublicKey`, `Keypair`) and the API’s JSON formats. Use it to easily construct swap transactions or retrieve underlying instructions for advanced scenarios.
+The **Swap SDK** is a TypeScript library that simplifies interacting with a Deserialize swap endpoint. It abstracts away the low-level details of converting between SVM types (e.g., `PublicKey`, `Keypair`) and the API’s JSON formats. Use it to easily construct swap transactions or retrieve underlying instructions for advanced scenarios.
 
 ## Features
 
 - **Simple API:**  
-  Accepts Solana `PublicKey` objects and numerical amounts while handling all necessary conversions.
+  Accepts SVM `PublicKey` objects and numerical amounts while handling all necessary conversions.
 - **Transaction Deserialization & Signing:**  
   Automatically converts a base64-encoded transaction from the API into a `VersionedTransaction` and applies signatures.
 - **Flexible Usage:**  
@@ -22,12 +22,11 @@ The **Swap SDK** is a TypeScript library that simplifies interacting with a Sola
 Install the package via npm (or yarn):
 
 ```bash
-npm install swap-sdk
+npm install @deserialize/swap-sdk
 # or
-yarn add swap-sdk
+yarn add @deserialize/swap-sdk
 ```
 
-*Note:* Replace `swap-sdk` with the actual package name when you publish it.
 
 ## Usage
 
